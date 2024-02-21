@@ -1,20 +1,36 @@
 body {
-    font-family: 'Courier New', Courier, monospace; /* Or a more interesting, whimsical font */
-    background-color: #e0e0d1; /* Weathered, workshop color */
+    font-family: 'Patrick Hand', cursive; 
+    background-color: #e0e0d1; 
+    color: #333333; /* Dark gray */
 }
 
 header {
-    background-image: url("images/workshop-banner.jpg"); /* A workshop-themed banner image */
+    background-color: #684a23; /* Brown */
     text-align: center;
     padding: 20px; 
 }
 
-h2 {
+.workshop-title {
+    font-family: 'Cinzel', serif;
     color: #8c5926; /* Copper color */
 }
 
-#projects {
-    /* Add styling to make the project showcase interesting! */ 
+#portal {
+    width: 100px;
+    margin-top: 10px; 
+} 
+
+
+#about {
+    transform: rotate(-3deg); /* Tilt slightly to the left */
 }
 
-/* Add more as you style navigation, sections, etc. */
+.project-grid .project-item {
+    transform: rotate(2deg);  /* Tilt slightly to the right */ 
+    margin: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3); /* Adds a drop shadow effect */
+}
+
+#portal:hover {
+    box-shadow: 0 0 20px rgba(102, 255, 255, 0.5); /* Example: Cyan glow */
+}
